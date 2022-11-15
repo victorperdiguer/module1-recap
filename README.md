@@ -65,15 +65,15 @@ In the file `index.js`: create a function called `orderByDate`. The function sho
 
 ## Iteration 5: New machine gun 🔫
 
-Create a new class called `Weapon`. Each weapon will have the following properties:
+In the file `index.js`: create a new class called `Weapon`. Each weapon will have the following properties:
 - type: it will be a name passed to the constructor
 - power: it will be a number passed to the constructor between 20 and 100
 - ammo: it will be a number of bullets passed to the constructor. If none are passed, by default it will be 10.
 
 And the following methods:
-- shoot: it will decrease the number of bullets 1 by 1 every 30 millieseconds.
+- shoot: it will decrease the number of bullets (ammo) 1 by 1 every 30 milliseconds.
 - stopShooting: it will stop the shooting.
-- reload: it will receive a number of bullets. It will wait two seconds, and then it will increase the bullets by the number of bullets recieved.
+- reload: it will receive a number of bullets. It will wait two seconds, and then it will increase the ammo by the number of bullets recieved.
 
 > ⚠️ You can add properties if you need them, these are just the minimum. You should also include console.logs to see that happens when you call the methods on the new instance.
 
